@@ -2,6 +2,12 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 
+// import { worker } from "../mocks/browser";
+
+// if (process.env.NODE_ENV === "development") {
+//   worker.start();
+// }
+
 const Home: NextPage = () => {
   return (
     <div>
